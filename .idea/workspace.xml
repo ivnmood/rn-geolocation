@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c3092520-ef31-4349-b740-af107128dc36" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.expo/packager-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/.expo/packager-info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FindMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FindMe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GetWeather.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GetWeather.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/MainScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/MainScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,12 +71,24 @@
       <workItem from="1599753140729" duration="307000" />
       <workItem from="1599821854688" duration="21000" />
       <workItem from="1599904720723" duration="1015000" />
-      <workItem from="1600151262216" duration="930000" />
+      <workItem from="1600151262216" duration="2095000" />
     </task>
+    <task id="LOCAL-00001" summary="changed the settimeout to promise">
+      <created>1600152428013</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600152428013</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changed the settimeout to promise" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed the settimeout to promise" />
   </component>
   <component name="WindowStateProjectService">
     <state x="561" y="271" key="#Scopes" timestamp="1599585363006">
@@ -90,6 +99,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1599560621921" />
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1600152427313">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600152427313" />
     <state x="165" y="167" key="FileChooserDialogImpl" timestamp="1599740290225">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -118,6 +131,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="246" height="198" key="ShowFilterAction_Filter_Popup/0.0.1536.824@0.0.1536.824" timestamp="1599585904015" />
+    <state x="432" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600153016549">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="432" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1600153016549" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599587982407">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

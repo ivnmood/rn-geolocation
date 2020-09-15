@@ -43,18 +43,15 @@ export const MainScreen = ({}) => {
 
     }
 
-    return <View style={styles.center}>
-
+    return <KeyboardAvoidingView behavior="height" style={styles.center}>
         <View style={styles.getWeather}>
             <GetWeather/>
         </View>
         <FindMe askPermission={askPermission} />
-
-
         <AppCard>
             {content}
         </AppCard>
-    </View>
+    </KeyboardAvoidingView>
 }
 
 
