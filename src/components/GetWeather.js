@@ -17,13 +17,11 @@ export const GetWeather = ({}) => {
 
     const weather = useSelector(state => state.geo.cityWeather)
 
-
     const getWeatherCity = () => {
         if (value.trim()) {
-            dispatch(getWeather(value))
+            dispatch(getWeather(value)).then(()=> {setButtonClicked(!buttonClicked)})
             setValue('')
             Keyboard.dismiss()
-            setTimeout(() => setButtonClicked(!buttonClicked), 3000)
         } else {
             Alert.alert('Input can\'t be empty')
         }

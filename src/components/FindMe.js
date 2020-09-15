@@ -16,8 +16,7 @@ export const FindMe = ({askPermission}) => {
 
 
     const sendGeolocation = () => {
-        dispatch(addGeolocation())
-        setTimeout(() => setButtonClicked(!buttonClicked), 3000)
+        dispatch(addGeolocation()).then(() => {setButtonClicked(!buttonClicked)})
         askPermission()
     }
 

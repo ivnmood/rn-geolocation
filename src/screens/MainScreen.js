@@ -1,5 +1,5 @@
 import React from 'react'
-import {View, Text, StyleSheet, Alert} from 'react-native'
+import {View, Text, StyleSheet, Alert, KeyboardAvoidingView} from 'react-native'
 import {HeaderButtons, Item} from "react-navigation-header-buttons";
 import {AppHeaderIcon} from "../components/AppHeadersIcon";
 import {GetWeather} from "../components/GetWeather";
@@ -39,7 +39,6 @@ export const MainScreen = ({}) => {
             <Text>Description: {geolocation[geolocation.length - 1].description}</Text>
             <Text>Lat: {geolocation[geolocation.length - 1].lat}</Text>
             <Text>Lng: {geolocation[geolocation.length - 1].lng}</Text>
-
         </View>
 
     }
@@ -50,6 +49,8 @@ export const MainScreen = ({}) => {
             <GetWeather/>
         </View>
         <FindMe askPermission={askPermission} />
+
+
         <AppCard>
             {content}
         </AppCard>
